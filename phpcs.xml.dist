@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<ruleset name="Pronamic Pay with Mollie for WooCommerce">
+	<file>.</file>
+
+	<rule ref="PronamicWP">
+
+	</rule>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="pronamic-pay-with-mollie-for-woocommerce" />
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="WordPress.Utils.I18nTextDomainFixer">
+		<properties>
+			<property name="old_text_domain" type="array">
+				<element value="action-scheduler" />
+				<element value="pronamic_ideal" />
+				<element value="pronamic-money" />
+			</property>
+
+			<property name="new_text_domain" value="pronamic-pay-with-mollie-for-woocommerce" />
+		</properties>
+	</rule>
+</ruleset>
