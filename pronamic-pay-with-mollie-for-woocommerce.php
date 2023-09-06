@@ -36,7 +36,7 @@ require_once __DIR__ . '/vendor/autoload_packages.php';
  */
 add_action(
 	'plugins_loaded',
-	function() {
+	function () {
 		load_plugin_textdomain( 'pronamic-pay-with-mollie-for-woocommerce', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
 	}
 );
@@ -50,7 +50,7 @@ add_action(
 
 add_filter(
 	'pronamic_pay_modules',
-	function( $modules ) {
+	function ( $modules ) {
 		$modules[] = 'subscriptions';
 
 		return $modules;
@@ -59,7 +59,7 @@ add_filter(
 
 add_filter(
 	'pronamic_pay_plugin_integrations',
-	function( $integrations ) {
+	function ( $integrations ) {
 		$class = \Pronamic\WordPress\Pay\Extensions\WooCommerce\Extension::class;
 
 		if ( ! array_key_exists( $class, $integrations ) ) {
@@ -72,7 +72,7 @@ add_filter(
 
 add_filter(
 	'pronamic_pay_gateways',
-	function( $gateways ) {
+	function ( $gateways ) {
 		$gateways[] = new \Pronamic\WordPress\Pay\Gateways\Mollie\Integration(
 			[
 				'register_url' => 'https://www.mollie.com/nl/signup/665327',
