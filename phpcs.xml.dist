@@ -3,6 +3,11 @@
 <ruleset name="Pronamic Pay with Mollie for WooCommerce">
 	<file>.</file>
 
+	<exclude-pattern type="relative">^build/*</exclude-pattern>
+	<exclude-pattern type="relative">^node_modules/*</exclude-pattern>
+	<exclude-pattern type="relative">^packages/*</exclude-pattern>
+	<exclude-pattern type="relative">^vendor/*</exclude-pattern>
+
 	<rule ref="PronamicWP">
 
 	</rule>
@@ -26,4 +31,6 @@
 			<property name="new_text_domain" value="pronamic-pay-with-mollie-for-woocommerce" />
 		</properties>
 	</rule>
+
+	<rule ref="phpcs-text-domain-fixer.xml" />
 </ruleset>
