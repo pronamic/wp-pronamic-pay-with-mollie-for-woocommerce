@@ -31,6 +31,7 @@
 		"php": ">=8.0",
 		"automattic/jetpack-autoloader": "^2.11",
 		"composer/installers": "^2.2",
+		"pronamic/wp-pronamic-woocommerce-payment-gateways-countries-condition": "dev-main",
 		"woocommerce/action-scheduler": "^3.5",
 		"wp-pay-extensions/woocommerce": "^4.5",
 		"wp-pay-gateways/mollie": "^4.7",

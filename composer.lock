@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8601ca54ea7dc873d457a487e9130ca",
+    "content-hash": "b8185e24ac08f72c6c67da7aec144e8a",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -590,6 +590,51 @@
             "time": "2023-03-21T11:18:55+00:00"
         },
         {
+            "name": "pronamic/wp-pronamic-woocommerce-payment-gateways-countries-condition",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pronamic/wp-pronamic-woocommerce-payment-gateways-countries-condition.git",
+                "reference": "e59f0b7ef389ed8e576184f10076a715d27ecc7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-woocommerce-payment-gateways-countries-condition/zipball/e59f0b7ef389ed8e576184f10076a715d27ecc7f",
+                "reference": "e59f0b7ef389ed8e576184f10076a715d27ecc7f",
+                "shasum": ""
+            },
+            "require": {
+                "automattic/jetpack-autoloader": "^2.11"
+            },
+            "require-dev": {
+                "pronamic/pronamic-cli": "dev-main",
+                "pronamic/wp-coding-standards": "^2.0"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WooCommercePaymentGatewaysCountriesCondition\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu"
+                }
+            ],
+            "description": "This plugin allows you to specify the countries in which each WooCommerce payment gateway is available.",
+            "support": {
+                "issues": "https://github.com/pronamic/wp-pronamic-woocommerce-payment-gateways-countries-condition/issues",
+                "source": "https://github.com/pronamic/wp-pronamic-woocommerce-payment-gateways-countries-condition/tree/main"
+            },
+            "time": "2023-09-14T11:51:41+00:00"
+        },
+        {
             "name": "viison/address-splitter",
             "version": "0.3.4",
             "source": {
@@ -634,16 +679,16 @@
         },
         {
             "name": "woocommerce/action-scheduler",
-            "version": "3.6.2",
+            "version": "3.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/woocommerce/action-scheduler.git",
-                "reference": "4eb2fa9737a53e4d284dafcf3e0bf428b5f941bc"
+                "reference": "c33dd732e37c90f37c3f9662f7eed888c11dc60d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woocommerce/action-scheduler/zipball/4eb2fa9737a53e4d284dafcf3e0bf428b5f941bc",
-                "reference": "4eb2fa9737a53e4d284dafcf3e0bf428b5f941bc",
+                "url": "https://api.github.com/repos/woocommerce/action-scheduler/zipball/c33dd732e37c90f37c3f9662f7eed888c11dc60d",
+                "reference": "c33dd732e37c90f37c3f9662f7eed888c11dc60d",
                 "shasum": ""
             },
             "require-dev": {
@@ -668,9 +713,9 @@
             "homepage": "https://actionscheduler.org/",
             "support": {
                 "issues": "https://github.com/woocommerce/action-scheduler/issues",
-                "source": "https://github.com/woocommerce/action-scheduler/tree/3.6.2"
+                "source": "https://github.com/woocommerce/action-scheduler/tree/3.6.3"
             },
-            "time": "2023-08-09T19:43:41+00:00"
+            "time": "2023-09-13T13:40:20+00:00"
         },
         {
             "name": "wp-pay-extensions/woocommerce",
@@ -5955,16 +6000,16 @@
         },
         {
             "name": "wp-coding-standards/wpcs",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress-Coding-Standards.git",
-                "reference": "bb792cb331472b82c5d7f28fb9b8ec2d20f68826"
+                "reference": "b4caf9689f1a0e4a4c632679a44e638c1c67aff1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/bb792cb331472b82c5d7f28fb9b8ec2d20f68826",
-                "reference": "bb792cb331472b82c5d7f28fb9b8ec2d20f68826",
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/b4caf9689f1a0e4a4c632679a44e638c1c67aff1",
+                "reference": "b4caf9689f1a0e4a4c632679a44e638c1c67aff1",
                 "shasum": ""
             },
             "require": {
@@ -6011,12 +6056,19 @@
                 "source": "https://github.com/WordPress/WordPress-Coding-Standards",
                 "wiki": "https://github.com/WordPress/WordPress-Coding-Standards/wiki"
             },
-            "time": "2023-08-21T14:28:38+00:00"
+            "funding": [
+                {
+                    "url": "https://opencollective.com/thewpcc/contribute/wp-php-63406",
+                    "type": "custom"
+                }
+            ],
+            "time": "2023-09-14T07:06:09+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "pronamic/wp-pronamic-woocommerce-payment-gateways-countries-condition": 20,
         "pronamic/pronamic-cli": 20
     },
     "prefer-stable": false,
