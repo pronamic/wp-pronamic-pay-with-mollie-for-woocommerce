@@ -15,7 +15,7 @@
 
 ## Video
 
-_Video coming soon._
+[![Accept payments with Mollie and WooCommerce for WordPress](https://img.youtube.com/vi/eVwbLKr47iw/maxresdefault.jpg)](https://youtu.be/eVwbLKr47iw)
 
 ## Introduction
 
