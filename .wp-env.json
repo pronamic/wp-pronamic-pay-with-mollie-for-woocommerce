@@ -1,7 +1,6 @@
 {
 	"core": null,
 	"plugins": [
-		".",
 		"pronamic/wp-env-quick-login",
 		"pronamic/wp-pronamic-pay-test-helper",
 		"https://downloads.wordpress.org/plugin/one-time-login.zip",
@@ -11,6 +10,10 @@
 		"https://downloads.wordpress.org/plugin/woocommerce.zip",
 		"https://downloads.wordpress.org/plugin/wp-plugin-dependencies.zip"
 	],
+	"mappings": {
+		"wp-content/plugins/pronamic-pay-with-mollie-for-woocommerce-dev": "./",
+		"wp-content/plugins/pronamic-pay-with-mollie-for-woocommerce": "./build/project/"
+	},
 	"config": {
 		"PRONAMIC_PAY_DEBUG": true
 	}
