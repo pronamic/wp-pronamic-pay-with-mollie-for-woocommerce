@@ -20,6 +20,9 @@
  *
  * GitHub URI: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce
  *
+ * WC requires at least: 8.0
+ * WC tested up to: 8.0
+ *
  * @author    Pronamic <info@pronamic.eu>
  * @copyright 2005-2023 Pronamic
  * @license   GPL-3.0-or-later
