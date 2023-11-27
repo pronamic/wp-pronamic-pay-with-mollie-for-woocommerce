@@ -56,6 +56,10 @@ add_action(
 	]
 );
 
+\Pronamic\WooCommercePaymentGatewaysCountriesCondition\Plugin::instance()->setup();
+\Pronamic\WooCommercePaymentGatewaysFees\Plugin::instance()->setup();
+\Pronamic\WooCommerceGatewayOrderButtonText\Plugin::instance()->setup();
+
 add_filter(
 	'pronamic_pay_modules',
 	function ( $modules ) {
@@ -91,5 +95,3 @@ add_filter(
 		return $gateways;
 	}
 );
-
-\Pronamic\WooCommercePaymentGatewaysCountriesCondition\Plugin::instance()->setup();
