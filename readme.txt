@@ -12,7 +12,7 @@ Connect Mollie to WooCommerce with Pronamic Pay. This free plugin is all that yo
 
 == Description ==
 
-
+https://youtu.be/eVwbLKr47iw
 
 = Features =
 
