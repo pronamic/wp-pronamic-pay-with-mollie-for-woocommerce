@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0885d42900071617b37d2974cfdb2e3",
+    "content-hash": "c57523b11f68f10803cbe7e6a65d751a",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -410,6 +410,66 @@
                 "source": "https://github.com/pronamic/pronamic-payment-gateways-fees-for-woocommerce/tree/v1.0.1"
             },
             "time": "2023-11-06T19:00:51+00:00"
+        },
+        {
+            "name": "pronamic/pronamic-payment-gateways-order-button-text-for-woocommerce",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pronamic/pronamic-payment-gateways-order-button-text-for-woocommerce.git",
+                "reference": "5d4655dad4ca8fdbb789103d3629b3981da4f95c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pronamic/pronamic-payment-gateways-order-button-text-for-woocommerce/zipball/5d4655dad4ca8fdbb789103d3629b3981da4f95c",
+                "reference": "5d4655dad4ca8fdbb789103d3629b3981da4f95c",
+                "shasum": ""
+            },
+            "require": {
+                "automattic/jetpack-autoloader": "^2.12",
+                "php": ">=8.0",
+                "pronamic/pronamic-wp-updater": "^1.0"
+            },
+            "require-dev": {
+                "pronamic/pronamic-cli": "^1.1",
+                "pronamic/wp-coding-standards": "^2.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WooCommerceGatewayOrderButtonText\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu",
+                    "homepage": "https://www.pronamic.eu/"
+                }
+            ],
+            "description": "This WordPress plugin adds a setting to all WooCommerce gateways for customizing the order button text.",
+            "homepage": "https://www.pronamic.shop/product/pronamic-payment-gateways-order-button-text-for-woocommerce/",
+            "keywords": [
+                "gateway",
+                "gateways",
+                "payment",
+                "payments",
+                "pronamic",
+                "woocommerce",
+                "woocommerce-plugin",
+                "wordpress",
+                "wordpress-plugin"
+            ],
+            "support": {
+                "email": "support@pronamic.eu",
+                "issues": "https://github.com/pronamic/pronamic-payment-gateways-order-button-text-for-woocommerce/issues",
+                "source": "https://github.com/pronamic/pronamic-payment-gateways-order-button-text-for-woocommerce/tree/v1.0.2"
+            },
+            "time": "2023-11-06T18:51:40+00:00"
         },
         {
             "name": "pronamic/pronamic-wp-updater",
