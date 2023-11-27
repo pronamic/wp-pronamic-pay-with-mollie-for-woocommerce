@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "546bde8449a2a0df7bb67767c5664834",
+    "content-hash": "49b9d7b22f0691136df27e549cb06b62",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -285,16 +285,16 @@
         },
         {
             "name": "pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce",
-            "version": "dev-main",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce.git",
-                "reference": "7fbd312eaac28d7be87b4b8e885a9cc9422d7654"
+                "reference": "0728154e01e84753be8c9bd0db79a0f2d490eacd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce/zipball/7fbd312eaac28d7be87b4b8e885a9cc9422d7654",
-                "reference": "7fbd312eaac28d7be87b4b8e885a9cc9422d7654",
+                "url": "https://api.github.com/repos/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce/zipball/0728154e01e84753be8c9bd0db79a0f2d490eacd",
+                "reference": "0728154e01e84753be8c9bd0db79a0f2d490eacd",
                 "shasum": ""
             },
             "require": {
@@ -306,7 +306,6 @@
                 "pronamic/pronamic-cli": "^1.1",
                 "pronamic/wp-coding-standards": "^2.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -343,9 +342,9 @@
             "support": {
                 "email": "support@pronamic.eu",
                 "issues": "https://github.com/pronamic/pronamic-payment-gateways-fees-for-woocommerce/issues",
-                "source": "https://github.com/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce/tree/v1.0.0"
+                "source": "https://github.com/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce/tree/v1.0.1"
             },
-            "time": "2023-10-31T14:07:49+00:00"
+            "time": "2023-11-06T18:58:04+00:00"
         },
         {
             "name": "pronamic/pronamic-wp-updater",
@@ -6131,9 +6130,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
