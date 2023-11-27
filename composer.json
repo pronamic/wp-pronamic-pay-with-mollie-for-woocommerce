@@ -54,7 +54,9 @@
 		"version": "@build",
 		"release": [
 			"@build",
-			"vendor/bin/pronamic release-to-pronamic"
+			"vendor/bin/pronamic release-to-github",
+			"vendor/bin/pronamic release-to-pronamic",
+			"vendor/bin/pronamic release-to-wp-org"
 		]
 	}
 }
