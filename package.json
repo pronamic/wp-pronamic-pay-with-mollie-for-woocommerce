@@ -1,7 +1,7 @@
 {
 	"name": "@pronamic/wp-pronamic-pay-with-mollie-for-woocommerce",
 	"description": "Pronamic Pay plugin with Mollie for WooCommerce integration.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce.git"
