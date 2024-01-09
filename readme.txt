@@ -19,11 +19,20 @@ https://youtu.be/eVwbLKr47iw
 This plugin is developed from the idea that online payments should be easy. Some of the features:
 
 - Easy install
-- Support for 10+ payment methods
+- Support for most major payment methods
 - Payment status pages
 - Automatic payment status updates via Mollie webhooks and the WordPress REST API
 - High quality support
 - Built by Pronamic
+
+= Recurring payments =
+The plugin supports Woo Subscriptions. So you can accept recurring payments with Mollie. Therefore you can set your own schedule for the recurring payments, like every day, 5 days, 1 week, 2 weeks, month or year.
+
+= Payment methods per country =
+When you sell international it’s a good practise to offer local payment methods. Therefore you can set payment methods per country. Like Bancontact for Belgium and Giropay for Germany.
+
+= Surcharging =
+You can set surcharging fees for payment methods. Please note that for most countries surcharging is not allowed for multiple payment methods.
 
 == Installation ==
 
