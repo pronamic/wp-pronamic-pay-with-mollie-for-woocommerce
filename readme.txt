@@ -32,7 +32,7 @@ The plugin supports Woo Subscriptions. So you can accept recurring payments with
 When you sell international it’s a good practise to offer local payment methods. Therefore you can set payment methods per country. Like Bancontact for Belgium and Giropay for Germany.
 
 = Surcharging =
-You can set surcharging fees for payment methods. Please note that for most countries surcharging is not allowed for multiple payment methods.
+You can set surcharging fees for payment methods. Please note that for most countries surcharging is not allowed for most payment methods.
 
 == Installation ==
 
