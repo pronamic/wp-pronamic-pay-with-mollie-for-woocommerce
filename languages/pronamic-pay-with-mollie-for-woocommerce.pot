@@ -1,32 +1,36 @@
-# Copyright (C) 2023 Pronamic
+# Copyright (C) 2024 Pronamic
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Pronamic Pay with Mollie for WooCommerce 1.0.0\n"
+"Project-Id-Version: Pronamic Pay with Mollie for WooCommerce 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pronamic-pay-with-mollie-for-woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-11-27T11:43:12+00:00\n"
+"POT-Creation-Date: 2024-02-08T09:51:52+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: pronamic-pay-with-mollie-for-woocommerce\n"
 
 #. Plugin Name of the plugin
+#: pronamic-pay-with-mollie-for-woocommerce.php
 msgid "Pronamic Pay with Mollie for WooCommerce"
 msgstr ""
 
 #. Plugin URI of the plugin
+#: pronamic-pay-with-mollie-for-woocommerce.php
 msgid "https://www.pronamic.eu/plugins/pronamic-pay-with-mollie-for-woocommerce/"
 msgstr ""
 
 #. Description of the plugin
+#: pronamic-pay-with-mollie-for-woocommerce.php
 msgid "Pronamic Pay plugin with Mollie for WooCommerce integration."
 msgstr ""
 
 #. Author of the plugin
+#: pronamic-pay-with-mollie-for-woocommerce.php
 #: packages/wp-pay-extensions/woocommerce/src/Extension.php:217
 #: packages/wp-pay-extensions/woocommerce/src/Gateway.php:126
 #: packages/wp-pay-extensions/woocommerce/src/Gateway.php:127
@@ -37,6 +41,7 @@ msgid "Pronamic"
 msgstr ""
 
 #. Author URI of the plugin
+#: pronamic-pay-with-mollie-for-woocommerce.php
 msgid "https://www.pronamic.eu/"
 msgstr ""
 
@@ -996,8 +1001,13 @@ msgstr ""
 msgid "Scheduled action for %1$s will not be executed as no callbacks are registered."
 msgstr ""
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ActionFactory.php:232
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ActionFactory.php:233
 msgid "Invalid action - must be a recurring action."
+msgstr ""
+
+#. translators: %1$s is the name of the hook to be enqueued, %2$s is the exception message.
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ActionFactory.php:324
+msgid "Caught exception while enqueuing action \"%1$s\": %2$s"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:60
@@ -1687,14 +1697,14 @@ msgstr[1] ""
 msgid "An integer was expected but \"%1$s\" (%2$s) was received."
 msgstr ""
 
-#. translators: %s is the name of the hook to be cancelled.
+#. translators: %1$s is the name of the hook to be cancelled, %2$s is the exception message.
 #: packages/woocommerce/action-scheduler/functions.php:287
-msgid "Caught exception while cancelling action: %s"
+msgid "Caught exception while cancelling action \"%1$s\": %2$s"
 msgstr ""
 
 #: packages/wp-pay-extensions/woocommerce/src/Extension.php:56
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:915
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1284
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:956
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1327
 #: packages/wp-pay-extensions/woocommerce/src/WooCommerceSubscriptionsController.php:119
 msgid "WooCommerce"
 msgstr ""
@@ -1711,126 +1721,153 @@ msgstr ""
 msgid "Afterpay is a popular buy now, pay later service in Australia, New Zealand, the United States, and Canada."
 msgstr ""
 
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:301
+msgid "The most popular payment method in the world. Offers customers a safe and trusted way to pay online. Customers can pay for their order quickly and easily with their credit card, without having to worry about their security. It is possible to charge a payment surcharge for credit card costs."
+msgstr ""
+
 #. translators: %s: payment method
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:316
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:330
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:344
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:320
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:334
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:348
 msgid "By using this payment method you authorize us via %s to debit payments from your bank account."
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:317
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:321
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:438
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:453
 msgid "Bancontact"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:331
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:335
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:458
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:469
 msgid "iDEAL"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:345
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:349
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:463
 msgid "SOFORT"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:376
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:380
 msgid "With iDEAL you can easily pay online in the secure environment of your own bank."
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:524
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:396
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:447
+msgid "In3"
+msgstr ""
+
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:411
+msgid "Klarna"
+msgstr ""
+
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:465
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:482
+msgid "Riverty"
+msgstr ""
+
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:468
+msgid "Riverty (formerly AfterPay) is a payment service that allows customers to pay after receiving the product."
+msgstr ""
+
+#. translators: %s: provider
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:525
+msgid "You must be at least 18+ to use this service. If you pay on time, you will avoid additional costs and ensure that you can use %s services again in the future. By continuing, you accept the Terms and Conditions and confirm that you have read the Privacy Statement and Cookie Statement."
+msgstr ""
+
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:565
 msgid "We process your order as soon as we have processed your payment."
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:632
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:673
 msgid "reserved payment cancelled"
 msgstr ""
 
 #. translators: 1: payment URL, 2: payment ID, 3: WooCommerce payment method title, 4: Pronamic payment status
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:687
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:728
 msgid "<a href=\"%1$s\">Payment #%2$s</a> via \"%3$s\" updated to \"%4$s\"."
 msgstr ""
 
 #. translators: 1: Refund PSP ID, 2: error message
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:852
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:893
 msgid "Unable to create WooCommerce refund for \"%1$s\", due to the following error: \"%2$s\"."
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:923
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:964
 msgid "Date of birth checkout field"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:934
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:939
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:975
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:980
 msgid "Add date of birth field"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:940
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:981
 msgid "Add date of birth field to billing checkout fields"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:949
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:990
 msgid "Gender checkout field"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:960
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:965
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1001
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1006
 msgid "Add gender field"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:966
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1007
 msgid "Add gender field to billing checkout fields"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:984
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1025
 msgid "Extra fields are used for post-pay payment methods such as AfterPay and Klarna."
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1144
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1185
 msgid "— Select a checkout field —"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1170
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1211
 #: packages/wp-pay/core/views/meta-box-payment-info.php:577
 msgid "Date of birth"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1181
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1222
 #: packages/wp-pay/core/views/meta-box-payment-info.php:599
 msgid "Gender"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1184
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1225
 msgid "— Select gender —"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1185
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1226
 #: packages/wp-pay/core/views/meta-box-payment-info.php:606
 msgid "Female"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1186
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1227
 #: packages/wp-pay/core/views/meta-box-payment-info.php:610
 msgid "Male"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1187
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1228
 #: packages/wp-pay/core/views/meta-box-payment-info.php:614
 msgid "Other"
 msgstr ""
 
 #. translators: %s: order number
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1265
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1277
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1306
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1319
 msgid "Order %s"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1300
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1343
 msgid "WooCommerce Order"
 msgstr ""
 
-#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1378
+#: packages/wp-pay-extensions/woocommerce/src/Extension.php:1421
 #: packages/wp-pay-extensions/woocommerce/src/WooCommerceSubscriptionsController.php:254
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:87
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:486
@@ -2096,27 +2133,27 @@ msgid "Account number (IBAN)"
 msgstr ""
 
 #. translators: 1: payment transaction ID, 2: Mollie payment ID
-#: packages/wp-pay-gateways/mollie/src/Gateway.php:1081
+#: packages/wp-pay-gateways/mollie/src/Gateway.php:1117
 msgid "Payment transaction ID updated from `%1$s` to successful order payment `%2$s`."
 msgstr ""
 
 #. translators: 1: Mollie shipment ID, 2: Mollie order ID
-#: packages/wp-pay-gateways/mollie/src/Gateway.php:1097
+#: packages/wp-pay-gateways/mollie/src/Gateway.php:1133
 msgid "Shipment `%1$s` created for Mollie order `%2$s`."
 msgstr ""
 
 #. translators: 1: Mollie chargeback ID, 2: Mollie payment ID
-#: packages/wp-pay-gateways/mollie/src/Gateway.php:1462
+#: packages/wp-pay-gateways/mollie/src/Gateway.php:1498
 msgid "Subscription put on hold due to chargeback `%1$s` of payment `%2$s`."
 msgstr ""
 
 #. translators: 1: old mandate ID, 2: new mandate ID
-#: packages/wp-pay-gateways/mollie/src/Gateway.php:1570
+#: packages/wp-pay-gateways/mollie/src/Gateway.php:1606
 msgid "Mandate for subscription changed from \"%1$s\" to \"%2$s\"."
 msgstr ""
 
 #. translators: 1: old payment method, 2: new payment method
-#: packages/wp-pay-gateways/mollie/src/Gateway.php:1590
+#: packages/wp-pay-gateways/mollie/src/Gateway.php:1626
 msgid "Payment method for subscription changed from \"%1$s\" to \"%2$s\"."
 msgstr ""
 
@@ -2124,34 +2161,34 @@ msgstr ""
 msgid "https://www.mollie.com/en/pricing"
 msgstr ""
 
-#: packages/wp-pay-gateways/mollie/src/Integration.php:169
+#: packages/wp-pay-gateways/mollie/src/Integration.php:172
 msgctxt "mollie"
 msgid "API Key"
 msgstr ""
 
-#: packages/wp-pay-gateways/mollie/src/Integration.php:172
+#: packages/wp-pay-gateways/mollie/src/Integration.php:175
 msgid "API key as mentioned in the payment provider dashboard"
 msgstr ""
 
-#: packages/wp-pay-gateways/mollie/src/Integration.php:181
+#: packages/wp-pay-gateways/mollie/src/Integration.php:184
 msgctxt "mollie"
 msgid "Due date days"
 msgstr ""
 
-#: packages/wp-pay-gateways/mollie/src/Integration.php:186
+#: packages/wp-pay-gateways/mollie/src/Integration.php:189
 msgid "Number of days after which a bank transfer payment expires."
 msgstr ""
 
 #. translators: 1: <code>1</code>, 2: <code>100</code>, 3: <code>12</code>
-#: packages/wp-pay-gateways/mollie/src/Integration.php:189
+#: packages/wp-pay-gateways/mollie/src/Integration.php:192
 msgid "Minimum %1$s and maximum %2$s days. Default: %3$s days."
 msgstr ""
 
-#: packages/wp-pay-gateways/mollie/src/Integration.php:199
+#: packages/wp-pay-gateways/mollie/src/Integration.php:202
 msgid "Webhook URL"
 msgstr ""
 
-#: packages/wp-pay-gateways/mollie/src/Integration.php:204
+#: packages/wp-pay-gateways/mollie/src/Integration.php:207
 msgid "The Webhook URL as sent with each transaction to receive automatic payment status updates on."
 msgstr ""
 
@@ -3197,10 +3234,6 @@ msgstr ""
 msgid "Capayable"
 msgstr ""
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:447
-msgid "In3"
-msgstr ""
-
 #. translators: %s: payment method
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:452
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:457
@@ -3258,10 +3291,6 @@ msgstr ""
 
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:481
 msgid "Przelewy24"
-msgstr ""
-
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:482
-msgid "Riverty"
 msgstr ""
 
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:483
@@ -3424,12 +3453,12 @@ msgstr ""
 msgid "Support License Key"
 msgstr ""
 
-#. translators: 1: Pronamic Pay settings page URL, 2: Pronamic.eu plugin page URL
+#. translators: 1: Pronamic Pay settings page URL, 2: The pronamicpay.com plugin page URL
 #: packages/wp-pay/core/src/LicenseManager.php:179
 msgid "<strong>Pronamic Pay</strong> — You have not entered a valid <a href=\"%1$s\">support license key</a>, please <a href=\"%2$s\" target=\"_blank\">get your key at pronamicpay.com</a>."
 msgstr ""
 
-#. translators: 1: Pronamic Pay settings page URL, 2: Pronamic.eu plugin page URL, 3: Pronamic.eu account page URL
+#. translators: 1: Pronamic Pay settings page URL, 2: The pronamicpay.com plugin page URL, 3: The pronamic.shop account page URL
 #: packages/wp-pay/core/src/LicenseManager.php:186
 msgid "<strong>Pronamic Pay</strong> — You have not entered a valid <a href=\"%1$s\">support license key</a>. Please <a href=\"%2$s\" target=\"_blank\">get your key at pronamicpay.com</a> or login to <a href=\"%3$s\" target=\"_blank\">check your license status</a>."
 msgstr ""
@@ -3901,25 +3930,25 @@ msgstr ""
 msgid "Payment status check at gateway by %s."
 msgstr ""
 
-#: packages/wp-pay/core/src/Plugin.php:711
+#: packages/wp-pay/core/src/Plugin.php:701
 msgctxt "default datetime format"
 msgid "D j M Y \\a\\t H:i"
 msgstr ""
 
-#: packages/wp-pay/core/src/Plugin.php:722
+#: packages/wp-pay/core/src/Plugin.php:712
 msgid "Something went wrong with the payment. Please try again or pay another way."
 msgstr ""
 
-#: packages/wp-pay/core/src/Plugin.php:765
+#: packages/wp-pay/core/src/Plugin.php:755
 msgid "— Select Configuration —"
 msgstr ""
 
 #. translators: %d: Gateway configuration ID
-#: packages/wp-pay/core/src/Plugin.php:1088
+#: packages/wp-pay/core/src/Plugin.php:1078
 msgid "Payment failed because gateway configuration with ID `%d` does not exist."
 msgstr ""
 
-#: packages/wp-pay/core/src/Plugin.php:1208
+#: packages/wp-pay/core/src/Plugin.php:1198
 msgid "Unable to process refund as gateway could not be found."
 msgstr ""
 
@@ -4679,7 +4708,7 @@ msgid "Thank you for activating your license and using the %s plugin."
 msgstr ""
 
 #: packages/wp-pay/core/views/notice-license.php:37
-msgid "This license does not have any activations left. Maybe you have to deactivate your license on a local/staging server. This can be done on your <a href=\"https://www.pronamic.eu/\" target=\"_blank\">Pronamic.eu account</a>."
+msgid "This license does not have any activations left. Maybe you have to deactivate your license on a local/staging server. This can be done on your <a href=\"https://www.pronamic.shop/\" target=\"_blank\">Pronamic.shop account</a>."
 msgstr ""
 
 #: packages/wp-pay/core/views/notice-license.php:46
