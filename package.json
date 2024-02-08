@@ -1,19 +1,32 @@
 {
 	"name": "@pronamic/wp-pronamic-pay-with-mollie-for-woocommerce",
-	"description": "Pronamic Pay plugin with Mollie for WooCommerce integration.",
 	"version": "1.0.1",
+	"description": "Pronamic Pay plugin with Mollie for WooCommerce integration.",
+	"author": "Pronamic",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"mollie",
+		"payment",
+		"payment-form",
+		"pronamic",
+		"pronamic-pay",
+		"woo",
+		"woocommerce",
+		"woocommerce-subscriptions"
+	],
+	"homepage": "https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce#readme",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce.git"
 	},
-	"author": "Pronamic",
-	"license": "GPL-2.0-or-later",
 	"bugs": {
 		"url": "https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/issues"
 	},
-	"homepage": "https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce#readme",
 	"devDependencies": {
 		"@wordpress/env": "^9.2.0",
 		"@wordpress/scripts": "^27.1.0"
+	},
+	"scripts": {
+		"lint:pkg-json": "wp-scripts lint-pkg-json"
 	}
 }
