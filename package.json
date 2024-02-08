@@ -13,7 +13,7 @@
 	},
 	"homepage": "https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce#readme",
 	"devDependencies": {
-		"@wordpress/env": "^8.12.0",
+		"@wordpress/env": "^9.2.0",
 		"@wordpress/scripts": "^27.1.0"
 	}
 }

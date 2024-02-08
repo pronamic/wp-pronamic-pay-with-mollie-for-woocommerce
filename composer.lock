@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa94caf16adb8ba8827fb66bbc9c0425",
+    "content-hash": "a0fe5c10661e4c09c0e0e29f9ef56005",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -648,16 +648,16 @@
         },
         {
             "name": "pronamic/wp-mollie",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-mollie.git",
-                "reference": "d492d4c726d19c96e985ef16e42cbcaeb5a0fb48"
+                "reference": "114618f840ff07eae263df285a20e00dcc18442d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-mollie/zipball/d492d4c726d19c96e985ef16e42cbcaeb5a0fb48",
-                "reference": "d492d4c726d19c96e985ef16e42cbcaeb5a0fb48",
+                "url": "https://api.github.com/repos/pronamic/wp-mollie/zipball/114618f840ff07eae263df285a20e00dcc18442d",
+                "reference": "114618f840ff07eae263df285a20e00dcc18442d",
                 "shasum": ""
             },
             "require": {
@@ -696,9 +696,9 @@
             "description": "Mollie library for WordPress.",
             "support": {
                 "issues": "https://github.com/pronamic/wp-mollie/issues",
-                "source": "https://github.com/pronamic/wp-mollie/tree/v1.4.0"
+                "source": "https://github.com/pronamic/wp-mollie/tree/v1.5.0"
             },
-            "time": "2023-10-13T11:35:54+00:00"
+            "time": "2024-02-07T18:58:18+00:00"
         },
         {
             "name": "pronamic/wp-money",
@@ -909,16 +909,16 @@
         },
         {
             "name": "wp-pay-extensions/woocommerce",
-            "version": "v4.7.0",
+            "version": "v4.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-woocommerce.git",
-                "reference": "86e072d918db581301d537e4fb4ddaba350f9673"
+                "reference": "b77c5c5d70c74293170ce9aea7ffa0db49bcd337"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-woocommerce/zipball/86e072d918db581301d537e4fb4ddaba350f9673",
-                "reference": "86e072d918db581301d537e4fb4ddaba350f9673",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-woocommerce/zipball/b77c5c5d70c74293170ce9aea7ffa0db49bcd337",
+                "reference": "b77c5c5d70c74293170ce9aea7ffa0db49bcd337",
                 "shasum": ""
             },
             "require": {
@@ -982,20 +982,20 @@
                 "issues": "https://github.com/wp-pay-extensions/woocommerce/issues",
                 "source": "https://github.com/wp-pay-extensions/woocommerce"
             },
-            "time": "2023-12-18T13:54:07+00:00"
+            "time": "2024-02-07T20:14:53+00:00"
         },
         {
             "name": "wp-pay-gateways/mollie",
-            "version": "v4.8.1",
+            "version": "v4.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-mollie.git",
-                "reference": "335da4fe23c249c6ba4574f09fd899891fbe172d"
+                "reference": "828f846db21104fb7974a7530768328ec24967fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/335da4fe23c249c6ba4574f09fd899891fbe172d",
-                "reference": "335da4fe23c249c6ba4574f09fd899891fbe172d",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/828f846db21104fb7974a7530768328ec24967fb",
+                "reference": "828f846db21104fb7974a7530768328ec24967fb",
                 "shasum": ""
             },
             "require": {
@@ -1003,9 +1003,9 @@
                 "justinrainbow/json-schema": "^5.2",
                 "php": ">=8.0",
                 "pronamic/wp-http": "^1.2",
-                "pronamic/wp-mollie": "^1.4",
-                "woocommerce/action-scheduler": "^3.6",
-                "wp-pay/core": "^4.13"
+                "pronamic/wp-mollie": "^1.5",
+                "woocommerce/action-scheduler": "^3.7",
+                "wp-pay/core": "^4.15"
             },
             "require-dev": {
                 "automattic/wordbless": "^0.4.0",
@@ -1013,6 +1013,7 @@
                 "overtrue/phplint": "^4.3",
                 "php-coveralls/php-coveralls": "^2.5",
                 "phpmd/phpmd": "^2.7",
+                "phpmetrics/phpmetrics": "^2.8",
                 "pronamic/pronamic-cli": "^1.1",
                 "pronamic/wp-coding-standards": "^2.0",
                 "roots/wordpress": "^6.0",
@@ -1059,20 +1060,20 @@
                 "issues": "https://github.com/wp-pay-gateways/mollie/issues",
                 "source": "https://github.com/wp-pay-gateways/mollie"
             },
-            "time": "2023-10-16T11:44:58+00:00"
+            "time": "2024-02-07T19:45:59+00:00"
         },
         {
             "name": "wp-pay/core",
-            "version": "v4.14.3",
+            "version": "v4.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pay-core.git",
-                "reference": "c743a1506d01274286f51d23debf765004b17d6f"
+                "reference": "da19613d2dfb428ebfe092f161d11af7c2332cce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/c743a1506d01274286f51d23debf765004b17d6f",
-                "reference": "c743a1506d01274286f51d23debf765004b17d6f",
+                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/da19613d2dfb428ebfe092f161d11af7c2332cce",
+                "reference": "da19613d2dfb428ebfe092f161d11af7c2332cce",
                 "shasum": ""
             },
             "require": {
@@ -1145,7 +1146,7 @@
                 "issues": "https://github.com/wp-pay/core/issues",
                 "source": "https://github.com/wp-pay/core"
             },
-            "time": "2023-12-18T13:33:27+00:00"
+            "time": "2024-02-07T19:07:02+00:00"
         }
     ],
     "packages-dev": [
@@ -2796,22 +2797,22 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.4.2",
+            "version": "6.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.4.2"
+                "reference": "6.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.4.2-no-content.zip",
-                "shasum": "77d5fc8e5535fc2c63c1c6ae0c4763aad10ac8e7"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.4.3-no-content.zip",
+                "shasum": "4138c6337bf524159b406d5b27916deebb0f78df"
             },
             "require": {
                 "php": ">= 7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.4.2"
+                "wordpress/core-implementation": "6.4.3"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -2862,7 +2863,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2023-12-06T16:27:40+00:00"
+            "time": "2024-01-30T19:32:01+00:00"
         },
         {
             "name": "seld/jsonlint",
