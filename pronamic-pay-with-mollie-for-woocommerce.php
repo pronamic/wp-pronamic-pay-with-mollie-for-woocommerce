@@ -87,8 +87,7 @@ add_filter(
 	function ( $gateways ) {
 		$gateways[] = new \Pronamic\WordPress\Pay\Gateways\Mollie\Integration(
 			[
-				'register_url' => 'https://www.mollie.com/nl/signup/665327',
-				'manual_url'   => \__( 'https://www.pronamicpay.com/en/manuals/how-to-connect-mollie-to-wordpress-with-pronamic-pay/', 'pronamic-pay-with-mollie-for-woocommerce' ),
+				'manual_url' => \__( 'https://www.pronamicpay.com/en/manuals/how-to-connect-mollie-to-wordpress-with-pronamic-pay/', 'pronamic-pay-with-mollie-for-woocommerce' ),
 			]
 		);
 
