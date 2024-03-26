@@ -5,6 +5,37 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2024-03-26
+
+### Commits
+
+- Tested up to: 6.5. ([b5e36b9](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/commit/b5e36b957d9b07dbd7e3332fbb41f0ef13b7b2e6))
+- Reduce to max 5 tags. ([a31ebac](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/commit/a31ebacc00cbf9a2f610b90c8a7d09b6752a3278))
+- Removed Mollie signup link. ([217dd13](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/commit/217dd13a635f29bf51a580ebcc7a12ab43af18ab))
+
+### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v2.12.0` to `v3.0.4`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v3.0.4
+- Changed `pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce` from `v1.0.1` to `v1.0.2`.
+	Release notes: https://github.com/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce/releases/tag/v1.0.2
+- Changed `pronamic/pronamic-payment-gateways-fees-for-woocommerce` from `v1.0.1` to `v1.0.2`.
+	Release notes: https://github.com/pronamic/pronamic-payment-gateways-fees-for-woocommerce/releases/tag/v1.0.2
+- Changed `pronamic/pronamic-payment-gateways-order-button-text-for-woocommerce` from `v1.0.2` to `v1.0.3`.
+	Release notes: https://github.com/pronamic/pronamic-payment-gateways-order-button-text-for-woocommerce/releases/tag/v1.0.3
+- Changed `woocommerce/action-scheduler` from `3.7.1` to `3.7.3`.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/3.7.3
+- Changed `wp-pay-extensions/woocommerce` from `v4.7.1` to `v4.8.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-woocommerce/releases/tag/v4.8.0
+- Changed `wp-pay-gateways/mollie` from `v4.9.0` to `v4.10.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.10.0
+- Changed `wp-pay/core` from `v4.15.0` to `v4.16.0`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.16.0
+
+Full set of changes: [`1.1.0...1.2.0`][1.2.0]
+
+[1.2.0]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/compare/v1.1.0...v1.2.0
+
 ## [1.1.0] - 2024-02-08
 
 ### Added
