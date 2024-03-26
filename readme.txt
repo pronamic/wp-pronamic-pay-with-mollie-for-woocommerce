@@ -1,6 +1,6 @@
 === Pronamic Pay with Mollie for WooCommerce ===
 Contributors: pronamic
-Tags: mollie, woocommerce, pronamic, payments, subscriptions, credit card, paypal, iDEAL, bancontact, klarna
+Tags: pronamic, pay, mollie, woo, woocommerce
 Requires at least: 5.9
 Tested up to: 6.4
 Requires PHP: 8.0
