@@ -2,7 +2,7 @@
 Contributors: pronamic
 Tags: pronamic, pay, mollie, woo, woocommerce
 Requires at least: 5.9
-Tested up to: 6.4
+Tested up to: 6.6
 Requires PHP: 8.0
 Stable tag: 1.1.0
 License: GPLv2 or later
