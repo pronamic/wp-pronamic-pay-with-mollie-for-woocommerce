@@ -54,6 +54,6 @@ You can set surcharging fees for payment methods. Please note that for most coun
 
 == Links ==
 
-- [Pronamic Pay with Mollie for WooCommerce](https://www.pronamicpay.com/en/connections/mollie-for-woocommerce/)
-- [Pronamic Pay manuals for Mollie](https://www.pronamicpay.com/en/manual-category/mollie/)
+- [Pronamic Pay with Mollie for WooCommerce](https://www.pronamicpay.com/connections/mollie-for-woocommerce/)
+- [Pronamic Pay manuals for Mollie](https://www.pronamicpay.com/manual-category/mollie/)
 - [Pronamic](https://www.pronamic.eu/)
