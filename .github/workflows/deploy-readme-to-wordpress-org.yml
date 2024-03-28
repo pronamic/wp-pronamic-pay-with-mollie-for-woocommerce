@@ -12,9 +12,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           sparse-checkout: |
+            .github
             readme.txt
-          sparse-checkout-cone-mode: false
 
-      - name: Test
-        run: |
-          echo ${{ secrets.SVN_USERNAME }}
+      - name: Deploy
+        env:
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          WP_SLUG: pronamic-pay-with-mollie-for-woocommerce
+        run: php .github/scripts/deploy-readme-to-wordpress-org.php
