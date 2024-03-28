@@ -2,10 +2,6 @@ name: Deploy readme.txt to WordPress.org
 
 on:
   workflow_dispatch:
-    inputs:
-      svn_path:
-        description: 'Subversion path (default: trunk)'
-        type: string
 
 jobs:
   deploy:
@@ -23,6 +19,5 @@ jobs:
         env:
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
-          SVN_PATH: ${{ inputs.svn_path }} 
           WP_SLUG: pronamic-pay-with-mollie-for-woocommerce
         run: php .github/scripts/deploy-readme-to-wordpress-org.php
