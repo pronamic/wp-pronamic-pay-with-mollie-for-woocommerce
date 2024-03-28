@@ -5,8 +5,10 @@
  */
 $svn_username = getenv( 'SVN_USERNAME' );
 $svn_password = getenv( 'SVN_PASSWORD' );
+$svn_path     = getenv( 'SVN_PATH' );
+$wp_slug      = getenv( 'WP_SLUG' );
 
-$wp_slug = getenv( 'WP_SLUG' );
+$svn_path = empty( $svn_path ) ? 'trunk' : $svn_path;
 
 $svn_url = "https://plugins.svn.wordpress.org/$wp_slug";
 
@@ -34,7 +36,7 @@ echo '- Path readme.txt: ', $readme_file, PHP_EOL;
  * 
  * @link https://stackoverflow.com/a/122291
  */
-passthru( "svn checkout $svn_url/trunk/ $svn_checkout_dir --depth empty" );
+passthru( "svn checkout $svn_url/$svn_path/ $svn_checkout_dir --depth empty" );
 
 chdir( $svn_checkout_dir );
 
