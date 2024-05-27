@@ -34,10 +34,10 @@
 		"pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce": "^1.0",
 		"pronamic/pronamic-payment-gateways-fees-for-woocommerce": "^1.0",
 		"pronamic/pronamic-payment-gateways-order-button-text-for-woocommerce": "^1.0",
-		"woocommerce/action-scheduler": "^3.7",
+		"woocommerce/action-scheduler": "^3.8",
 		"wp-pay-extensions/woocommerce": "^4.8",
 		"wp-pay-gateways/mollie": "^4.10",
-		"wp-pay/core": "^4.17"
+		"wp-pay/core": "^4.18"
 	},
 	"require-dev": {
 		"pronamic/pronamic-cli": "^1.1",
