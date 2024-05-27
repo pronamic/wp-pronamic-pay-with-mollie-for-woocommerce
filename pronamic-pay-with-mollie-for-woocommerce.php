@@ -4,7 +4,7 @@
  * Plugin URI: https://www.pronamic.eu/plugins/pronamic-pay-with-mollie-for-woocommerce/
  * Description: Pronamic Pay plugin with Mollie for WooCommerce integration.
  *
- * Version: 1.2.1
+ * Version: 1.3.0
  * Requires at least: 5.9
  * Requires PHP: 8.0
  *
