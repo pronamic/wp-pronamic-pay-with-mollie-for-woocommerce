@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.1] - 2024-06-19
+
+### Commits
+
+- Requires PHP: 8.1. ([f72599e](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/commit/f72599e37f1c9bac5bd72f159feafa66c86b32b8))
+
+### Composer
+
+- Changed `wp-pay-extensions/woocommerce` from `v4.9.0` to `v4.9.1`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-woocommerce/releases/tag/v4.9.1
+- Changed `wp-pay/core` from `v4.19.0` to `v4.20.0`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.20.0
+
+Full set of changes: [`1.4.0...1.4.1`][1.4.1]
+
+[1.4.1]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/compare/v1.4.0...v1.4.1
+
 ## [1.4.0] - 2024-06-12
 
 ### Composer
