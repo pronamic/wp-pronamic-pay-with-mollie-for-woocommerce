@@ -14,7 +14,7 @@ Connect Mollie to WooCommerce with Pronamic Pay. This free plugin is all that yo
 
 [Pronamic Pay](https://www.pronamicpay.com/) · [Pronamic](https://www.pronamic.eu/) · [GitHub](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce)
 
-Connect Mollie to WooCommerce with Pronamic Pay. This free plugin is all that you need to start selling with WooCommerce. After onboarding with Mollie you can integrate all major payment methods in WooCommerce. Simply activate the desired payment methods and you can add them to your checkout. 
+Connect Mollie to WooCommerce with Pronamic Pay. This free plugin is all that you need to start selling with WooCommerce. After onboarding with Mollie you can integrate all major payment methods in WooCommerce. Simply activate the desired payment methods and you can add them to your checkout.
 
 https://youtu.be/eVwbLKr47iw
 
