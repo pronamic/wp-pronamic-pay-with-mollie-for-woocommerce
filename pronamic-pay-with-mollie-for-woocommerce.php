@@ -6,7 +6,7 @@
  *
  * Version: 1.6.0
  * Requires at least: 5.9
- * Requires PHP: 8.1
+ * Requires PHP: 8.2
  *
  * Author: Pronamic
  * Author URI: https://www.pronamic.eu/
@@ -44,7 +44,7 @@ require_once __DIR__ . '/vendor/autoload_packages.php';
 add_action(
 	'plugins_loaded',
 	function () {
-		load_plugin_textdomain( 'pronamic-pay-with-mollie-for-woocommerce', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
+		load_plugin_textdomain( 'pronamic-pay-with-mollie-for-woocommerce', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 	}
 );
 
@@ -97,7 +97,7 @@ add_filter(
 
 /**
  * High Performance Order Storage.
- * 
+ *
  * @link https://github.com/pronamic/pronamic-payment-gateways-fees-for-woocommerce/issues/4
  * @link https://github.com/woocommerce/woocommerce/wiki/High-Performance-Order-Storage-Upgrade-Recipe-Book#declaring-extension-incompatibility
  */
