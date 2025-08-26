@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.7.1] - 2025-08-26
+
+### Commits
+
+- Fixed Mollie user agreement link ([b665532](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/commit/b665532a4f3fd3a2f122b76f9abd213112b6fcd0))
+- Removed "VIES VAT number validation", no longer used ([c26c644](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/commit/c26c644a270315a0b2c71a4319e986844b8a76df))
+
+### Composer
+
+- Changed `wp-pay-gateways/mollie` from `v4.16.0` to `v4.16.1`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.16.1
+
+Full set of changes: [`1.7.0...1.7.1`][1.7.1]
+
+[1.7.1]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/compare/v1.7.0...v1.7.1
+
 ## [1.7.0] - 2025-08-22
 
 ### Composer
