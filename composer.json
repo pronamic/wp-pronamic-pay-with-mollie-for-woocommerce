@@ -36,8 +36,8 @@
 		"pronamic/pronamic-payment-gateways-order-button-text-for-woocommerce": "^1.0",
 		"woocommerce/action-scheduler": "^3.9",
 		"wp-pay-extensions/woocommerce": "^4.13",
-		"wp-pay-gateways/mollie": "^4.16",
-		"wp-pay/core": "^4.27"
+		"wp-pay-gateways/mollie": "^4.17",
+		"wp-pay/core": "^4.28"
 	},
 	"require-dev": {
 		"pronamic/changelog-md-to-wordpress-plugin-readme-txt": "dev-main",
