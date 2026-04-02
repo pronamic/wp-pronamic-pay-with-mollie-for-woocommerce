@@ -4,7 +4,7 @@ Tags: pronamic, pay, mollie, woo, woocommerce
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 8.2
-Stable tag: 1.9.0
+Stable tag: 1.10.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,6 +86,22 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [1.10.0] - 2026-04-02
+
+#### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v5.0.15` to `v5.0.16`.
+- Changed `giggsey/locale_list` from `9.0.22` to `9.0.27`.
+- Changed `justinrainbow/json-schema` from `5.3.1` to `5.3.3`.
+- Changed `mck89/peast` from `v2.1.8` to `v2.2.0`.
+- Changed `nb/oxymel` from `v1.4.0` to `v1.4.1`.
+- Changed `wp-pay-extensions/woocommerce` from `v4.14.0` to `v4.14.1`.
+- Changed `wp-pay/core` from `v4.30.0` to `v4.32.0`.
+
+Full set of changes: [`1.9.0...1.10.0`][1.10.0]
+
+[1.10.0]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/compare/v1.9.0...v1.10.0
 
 ### [1.9.0] - 2026-01-27
 
