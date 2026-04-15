@@ -56,6 +56,7 @@ add_action(
 	]
 );
 
+\Pronamic\PronamicPayDefaultPaymentMethods\Plugin::instance();
 \Pronamic\WooCommercePaymentGatewaysCountriesCondition\Plugin::instance()->setup();
 \Pronamic\WooCommercePaymentGatewaysFees\Plugin::instance()->setup();
 \Pronamic\WooCommerceGatewayOrderButtonText\Plugin::instance()->setup();
