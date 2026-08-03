@@ -7,6 +7,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.11.0] - 2026-08-03
+
+### Added
+
+- Registered the new `pronamic/pronamic-pay-default-payment-methods` package so the default Pronamic Pay payment methods keep working now that they were moved out of `wp-pay/core`.
+
+### Composer
+
+- Added `pronamic/pronamic-pay-default-payment-methods` `v1.1.0`. New package that registers Pronamic Pay's default payment methods, previously bundled in `wp-pay/core`.
+	Release notes: https://github.com/pronamic/pronamic-pay-default-payment-methods/releases/tag/v1.1.0
+- Changed `automattic/jetpack-autoloader` from `v5.0.16` to `v5.0.21`. Maintenance and compatibility updates.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v5.0.21
+- Changed `giggsey/libphonenumber-for-php-lite` from `9.0.27` to `9.0.36`. Updated bundled phone number metadata.
+	Release notes: https://github.com/giggsey/libphonenumber-for-php-lite/releases/tag/9.0.36
+- Changed `justinrainbow/json-schema` from `5.3.3` to `5.3.4`. Maintenance release.
+	Release notes: https://github.com/jsonrainbow/json-schema/releases/tag/5.3.4
+- Changed `pronamic/wp-money` from `2.4.4` to `2.4.5`. Maintenance release.
+	Release notes: https://github.com/pronamic/wp-money/releases/tag/v2.4.5
+- Changed `symfony/polyfill-mbstring` from `v1.33.0` to `v1.38.2`. Updated `mbstring` polyfill.
+	Release notes: https://github.com/symfony/polyfill-mbstring/releases/tag/v1.38.2
+- Changed `woocommerce/action-scheduler` from `3.9.3` to `4.0.0`. Major release: unique action scheduling now takes action arguments into account, failed actions are automatically purged after three months, plus cleanup and performance improvements. Contains breaking changes.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/4.0.0
+- Changed `wp-pay-extensions/woocommerce` from `v4.14.1` to `v4.15.0`. Allow `woocommerce/action-scheduler` `^4.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-woocommerce/releases/tag/v4.15.0
+- Changed `wp-pay-gateways/mollie` from `v4.19.0` to `v4.20.0`. Allow `woocommerce/action-scheduler` `^4.0`, set the timezone for due date calculation and defer webhook processing with Action Scheduler.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.20.0
+- Changed `wp-pay/core` from `v4.32.0` to `v4.34.0`. Register payment methods via the new `pronamic_pay_register_payment_methods` action, move the default payment methods into a separate package, allow `woocommerce/action-scheduler` `^4.0` and sync the refunded amount currency with the total amount when the refunded amount is zero.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.34.0
+
+Full set of changes: [`1.10.0...1.11.0`][1.11.0]
+
+[1.11.0]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/compare/v1.10.0...v1.11.0
+
 ## [1.10.0] - 2026-04-02
 
 ### Composer
