@@ -4,7 +4,7 @@ Tags: pronamic, pay, mollie, woo, woocommerce
 Requires at least: 5.9
 Tested up to: 7.1
 Requires PHP: 8.3
-Stable tag: 1.11.0
+Stable tag: 1.12.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,6 +86,43 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [1.12.0] - 2026-09-28
+
+#### Changed
+
+- Raised the minimum required PHP version to 8.3.
+- Tested up to WordPress 7.1.
+- Subscription renewal reminders are now sent 14 days before the renewal date instead of 1 week (via `wp-pay/core`).
+- Mollie due dates are now only set on bank transfer payments, the only payment method for which Mollie supports them (via `wp-pay-gateways/mollie`).
+
+#### Fixed
+
+- Fixed a currency mismatch error when calculating payment totals in a currency other than EUR (via `wp-pay/core`).
+- Fixed errors when loading payments or subscriptions whose post no longer exists (via `wp-pay/core`).
+
+#### Composer
+
+- Changed `php` from `>=8.2` to `>=8.3`.
+- Changed `automattic/jetpack-autoloader` from `v5.0.21` to `v5.0.23`. The `exclude-from-classmap` autoload setting of the root package briefly got applied to the Jetpack class map in 5.0.22, this was reverted in 5.0.23.
+	Changelog: https://github.com/Automattic/jetpack-autoloader/blob/v5.0.23/CHANGELOG.md
+- Changed `giggsey/libphonenumber-for-php-lite` from `9.0.36` to `9.0.40`. Updated phone number metadata and fixed formatting of phone numbers created with `setRawInput`.
+	Release notes: https://github.com/giggsey/libphonenumber-for-php-lite/releases/tag/9.0.40
+- Changed `pronamic/wp-mollie` from `v1.10.1` to `v2.0.0`. Breaking: moved the `due_date` property from `PaymentRequest` to `BankTransferPaymentRequest`.
+	Release notes: https://github.com/pronamic/wp-mollie/releases/tag/v2.0.0
+- Changed `pronamic/wp-money` from `2.4.5` to `2.5.0`. Added an optional currency argument to `Parser::parse()`, allowing amounts in currencies other than EUR to be parsed.
+	Release notes: https://github.com/pronamic/wp-money/releases/tag/v2.5.0
+- Changed `woocommerce/action-scheduler` from `4.0.0` to `4.2.0`. Fixed a lock that could get stuck, atomic unique action inserts, fewer SQL queries on the admin page, and protection against object injection when reading stored schedule data.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/4.1.0
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/4.2.0
+- Changed `wp-pay-gateways/mollie` from `v4.20.0` to `v4.21.0`. Use a bank transfer payment request when setting the Mollie payment due date and require `pronamic/wp-mollie` `^2.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.21.0
+- Changed `wp-pay/core` from `v4.34.0` to `v4.35.0`. Subscription renewal reminders 14 days in advance, next payment date hidden for cancelled subscriptions, fixed currency mismatches for non-EUR payment lines and fixed errors for payments or subscriptions without a post.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.35.0
+
+Full set of changes: [`1.11.0...1.12.0`][1.12.0]
+
+[1.12.0]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/compare/v1.11.0...v1.12.0
 
 ### [1.11.0] - 2026-08-03
 
