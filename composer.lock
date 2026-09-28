@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ad1c1c62e8a15b199a7831ca5dce46e",
+    "content-hash": "d0454fed4f544108ff6cc8c805bb6f92",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -3194,23 +3194,23 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.9.9",
+            "version": "7.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.9.9"
+                "reference": "7.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.w.org/release/wordpress-6.9.9-no-content.zip",
-                "reference": "6.9.9",
-                "shasum": "37aa034b83d8064f627fb6661decdbd7b6993d49"
+                "url": "https://downloads.wordpress.org/release/wordpress-7.1.2-no-content.zip",
+                "reference": "7.1.2",
+                "shasum": "52c0250854a52621dc024651b63d1e088287ee16"
             },
             "require": {
-                "php": ">= 7.2.24"
+                "php": ">= 7.4"
             },
             "provide": {
-                "wordpress/core-implementation": "6.9.9"
+                "wordpress/core-implementation": "7.1.2"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -3261,7 +3261,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-09-22T14:07:20+00:00"
+            "time": "2026-09-22T13:36:10+00:00"
         },
         {
             "name": "seld/jsonlint",

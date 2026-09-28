@@ -44,7 +44,7 @@
 		"pronamic/changelog-md-to-wordpress-plugin-readme-txt": "dev-main",
 		"pronamic/pronamic-cli": "^1.1",
 		"pronamic/wp-coding-standards": "^2.5",
-		"roots/wordpress-no-content": "^6.9",
+		"roots/wordpress-no-content": "^7.1",
 		"wp-cli/dist-archive-command": "*",
 		"wp-cli/wp-cli-bundle": "*"
 	},
