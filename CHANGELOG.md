@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.12.1] - 2026-11-02
+
+### Changed
+
+- Updated the bundled `symfony/polyfill-mbstring` library with several multibyte string fixes.
+
+### Composer
+
+- Changed `symfony/polyfill-mbstring` from `v1.38.2` to `v1.43.3`. Fixed handling of ill-formed UTF-8, search functions that ignored the needle, offset or encoding, endless loops in `mb_convert_case()` and `mb_encode_numericentity()`, excessive allocations in `mb_str_pad()`, and aligned `mb_strwidth()` and `MB_CASE_TITLE` with native ext/mbstring.
+	Release notes: https://github.com/symfony/polyfill-mbstring/releases/tag/v1.43.0
+	Release notes: https://github.com/symfony/polyfill-mbstring/releases/tag/v1.43.3
+
+Full set of changes: [`1.12.0...1.12.1`][1.12.1]
+
+[1.12.1]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/compare/v1.12.0...v1.12.1
+
 ## [1.12.0] - 2026-09-28
 
 ### Changed
