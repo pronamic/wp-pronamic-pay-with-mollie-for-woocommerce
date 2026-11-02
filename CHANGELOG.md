@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [Unreleased]
+
+### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v5.0.23` to `v6.0.2`. Jetpack Autoloader 6 only raises its minimum PHP version to 7.4.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/blob/v6.0.2/CHANGELOG.md
+- Changed `giggsey/libphonenumber-for-php-lite` from `9.0.40` to `9.0.42`. Updated phone number metadata for several regions.
+	Release notes: https://github.com/giggsey/libphonenumber-for-php-lite/releases/tag/9.0.42
+- Changed `justinrainbow/json-schema` from `5.3.4` to `6.14.0`. New major version of the JSON Schema validator, now required by the Mollie, PayPal and Rabo Smart Pay gateways. An unresolvable `$ref` now throws instead of passing silently.
+	Release notes: https://github.com/jsonrainbow/json-schema/releases/tag/6.0.0
+	Release notes: https://github.com/jsonrainbow/json-schema/releases/tag/6.14.0
+- Added `marc-mabe/php-enum` `v4.7.2`. New dependency of `justinrainbow/json-schema` 6.
+	Release notes: https://github.com/marc-mabe/php-enum/releases/tag/v4.7.2
+- Changed `pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce` from `v1.0.4` to `v1.0.5`. Allowed Jetpack Autoloader 6.x.
+	Release notes: https://github.com/pronamic/pronamic-payment-gateways-countries-condition-for-woocommerce/releases/tag/v1.0.5
+- Changed `pronamic/pronamic-payment-gateways-fees-for-woocommerce` from `v1.0.3` to `v1.0.4`. Allowed Jetpack Autoloader 6.x.
+	Release notes: https://github.com/pronamic/pronamic-payment-gateways-fees-for-woocommerce/releases/tag/v1.0.4
+- Changed `pronamic/pronamic-payment-gateways-order-button-text-for-woocommerce` from `v1.0.4` to `v1.0.5`. Allowed Jetpack Autoloader 6.x.
+	Release notes: https://github.com/pronamic/pronamic-payment-gateways-order-button-text-for-woocommerce/releases/tag/v1.0.5
+- Changed `pronamic/pronamic-wp-updater` from `v1.0.3` to `v1.0.4`. Allowed Jetpack Autoloader 6.x.
+	Release notes: https://github.com/pronamic/pronamic-wp-updater/releases/tag/v1.0.4
+- Changed `wp-pay-extensions/woocommerce` from `v4.15.0` to `v4.15.1`. Allowed Jetpack Autoloader 6.x.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-woocommerce/releases/tag/v4.15.1
+- Changed `wp-pay-gateways/mollie` from `v4.21.0` to `v4.22.0`. Allowed Jetpack Autoloader 6.x and now requires `justinrainbow/json-schema` `^6.8`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.22.0
+
 ## [1.12.1] - 2026-11-02
 
 ### Changed
