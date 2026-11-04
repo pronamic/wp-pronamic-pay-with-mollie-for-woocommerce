@@ -36,7 +36,7 @@
 		"pronamic/pronamic-payment-gateways-fees-for-woocommerce": "^1.0",
 		"pronamic/pronamic-payment-gateways-order-button-text-for-woocommerce": "^1.0",
 		"woocommerce/action-scheduler": "^4.2",
-		"wp-pay-extensions/woocommerce": "^4.15",
+		"wp-pay-extensions/woocommerce": "^4.16",
 		"wp-pay-gateways/mollie": "^4.22",
 		"wp-pay/core": "^4.35"
 	},
