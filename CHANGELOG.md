@@ -9,6 +9,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.14.0] - 2026-11-17
+
+### Changed
+
+- WooCommerce: renewal orders that are collected via direct debit now show "Direct Debit" as payment method title instead of the title of the subscription payment method, for example "iDEAL". ([pronamic/pronamic-pay#126](https://github.com/pronamic/pronamic-pay/issues/126))
+- WooCommerce: subscriptions with automatic renewals via iDEAL or Bancontact now show "Direct Debit" as payment method to customers. ([pronamic/pronamic-pay#126](https://github.com/pronamic/pronamic-pay/issues/126))
+
+### Composer
+
+- Changed `wp-pay-extensions/woocommerce` from `v4.16.0` to `v4.17.0`. Renewal orders and subscriptions collected via direct debit now show "Direct Debit" as payment method.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-woocommerce/releases/tag/v4.17.0
+
+Full set of changes: [`1.13.0...1.14.0`][1.14.0]
+
+[1.14.0]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-woocommerce/compare/v1.13.0...v1.14.0
+
 ## [1.13.0] - 2026-11-04
 
 ### Added
